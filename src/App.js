@@ -3,10 +3,13 @@ import './App.css';
 import Row from './Row.js'
 import requests from './requests.js'
 import Banner from './Banner'
+import Navbar from './Navbar';
+
 function App() {
   return (
     <div className="App">
 
+     <Navbar/>    
      <Banner/>
      <Row title="Trending Now" fetchUrl={requests.fetchTrending} islarge={true} />
      <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} />

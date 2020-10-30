@@ -1,4 +1,5 @@
-##OPEN IN GOOGLE CHROME ONLY
+## 
+OPEN IN GOOGLE CHROME ONLY
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

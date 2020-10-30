@@ -1,0 +1,20 @@
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    transition: 450ms;
+    z-index: 1;
+}
+
+.nav_black{
+    transition: 550ms;
+    background-color: black;
+}
+
+.img {
+    width: 100px;
+    object-fit: contain;
+    padding: 20px;
+}
